@@ -1,21 +1,17 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import {IoLogoCss3 } from "react-icons/io";
-import{AiFillHtml5} from "react-icons/ai";
+import { IoLogoCss3 } from "react-icons/io";
+import { AiFillHtml5 } from "react-icons/ai";
 import {
   DiJavascript1,
   DiReact,
   DiNodejs,
   DiMongodb,
-  DiPython,
-  DiGit,
+  DiMysql,
 } from "react-icons/di";
 import {
   SiCplusplus,
-  SiExpress,
-  SiPytorch,
-  SiFirebase,
-  SiNextdotjs,
+  SiExpress
 } from "react-icons/si";
 
 function Techstack() {
@@ -52,6 +48,10 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
         <p style={{ fontSize: "1.4rem" }}><i><b>MongoDb</b></i> </p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiMysql />
+        <p style={{ fontSize: "1.4rem" }}><i><b>SQL</b></i> </p>
       </Col>
     </Row>
   );

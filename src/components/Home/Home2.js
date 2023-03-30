@@ -8,7 +8,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import {FaFacebook} from 'react-icons/fa'
+import { FaFacebook } from 'react-icons/fa'
 
 function Home2() {
   return (
@@ -26,25 +26,27 @@ function Home2() {
               <br />I am fluent in classics like
               <i>
                 <b className="purple"> C++ </b> &nbsp;
-              </i>and having intermediate knowledge of 
+              </i>and having intermediate knowledge of
               <i>
-                <b className="purple"> Express.js, React.js and JavaScript.</b> 
+                <b className="purple"> Express.js, React.js and JavaScript.</b>
               </i>
               <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products. </b> 
+                <b className="purple">Web Technologies and Products. </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing and exploring products
+              I 'm very Passionate For developing and exploring products
               with <b className="purple">Node.js, React.js and Express.js</b>
+              <br/>
+              {/* I'm always ready to learn new things and technologies */}
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" class = "rounded-circle" width = "200" height = "200"></img> 
+              <img src={myImg} className="img-fluid avtarImg" alt="avatar" class="rounded-circle" width="200" height="200"></img>
             </Tilt>
           </Col>
         </Row>
@@ -94,7 +96,7 @@ function Home2() {
                 >
                   <FaFacebook />
                 </a>
-              </li>              
+              </li>
               <li className="social-icons">
                 <a
                   href="https://twitter.com/siddhantmi99"
