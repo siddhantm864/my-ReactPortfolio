@@ -256,7 +256,7 @@ button:focus {
 
 .home-section {
   position: relative;
-  z-index: -1;
+  /* z-index: -1; */
   background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
   background-position: top center;
   background-repeat: no-repeat;
@@ -265,7 +265,7 @@ button:focus {
 }
 
 .home-content {
-  padding: 9rem 0 2rem !important;
+  padding: 6rem 0 2rem !important;
   color: whitesmoke;
   text-align: left;
 }
@@ -362,6 +362,30 @@ button:focus {
   border-radius: 50% !important;
   transition: 0.5s !important;
 }
+
+@media  screen and (max-width: 600px) {
+  .home-social-icons{
+   width: 32px  !important;
+  }
+ }
+
+/* .home-avtarImg::before{
+  background: #68187a;
+  transition: 0.5s;
+  transform: scale(0.9);
+  z-index: -1;
+}
+
+.home-avtarImg:hover::before{
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #801f95;
+}
+
+.home-avtarImg:hover{
+  color: #87209e;
+  box-shadow: 0 0 5px #87209e;
+  text-shadow: 0 0 2px #87209e;
+} */
 
 .home-social-icons::before {
   content: "";
@@ -544,21 +568,21 @@ button:focus {
 
 .about-section {
   position: relative !important;
-  padding-top: 150px !important;
+  padding-top: 120px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;
 }
 
 .tech-icons {
-  font-size: 4.5em !important;
-  margin: 15px !important;
-  padding: 10px !important;
+  font-size: 3.5em !important;
+  margin: 10px !important;
+  /* padding: 10px !important; */
   opacity: 0.93 !important;
   border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
   vertical-align: middle !important;
   text-align: center !important;
-  border-radius: 5px !important;
+  border-radius: 10px !important;
   display: table !important;
   box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
   overflow: hidden !important;
@@ -572,12 +596,12 @@ button:focus {
 }
 
 .tech-icons:hover {
-  transform: scale(1.05) !important;
+  transform: scale(1.05);
   overflow: hidden !important;
   border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
 }
 .tech-icon-images {
-  padding: 20px !important;
+  padding: 10px !important;
   line-height: 1.6 !important;
 }
 
@@ -604,14 +628,15 @@ button:focus {
 
 .resume-section {
   position: relative !important;
-  padding-top: 110px !important;
+  padding-top: 90px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  /* z-index: 100; */
+  /* background-image: var(--section-background-color) !important; */
   color: white !important;
 }
 
 .resume {
-  padding-top: 50px;
+  padding-top: 100px;
   padding-bottom: 50px;
   justify-content: center;
 }

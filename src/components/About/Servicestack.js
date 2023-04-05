@@ -12,7 +12,7 @@ function Servicestack() {
             </Col>
             <Col xs={4} md={2} className="tech-icons">
                 <MdOutlineDeveloperMode />
-                <p style={{ fontSize: "1.4rem" }}><i><b>Web Developement</b></i> </p>
+                <p style={{ fontSize: "1.4rem" }}><i><b>Web Dev.</b></i> </p>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
                 <FaElementor />
@@ -21,5 +21,4 @@ function Servicestack() {
         </Row>
     );
 }
-
 export default Servicestack;
