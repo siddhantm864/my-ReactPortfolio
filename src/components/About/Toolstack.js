@@ -10,13 +10,14 @@ import {
 } from "react-icons/si";
 
 function Toolstack() {
-  useEffect(()=>{
-    Aos.init=({duration:2000})
+  useEffect(() => {
+    Aos.init = ({
 
-  },[])
+    })
+  }, [])
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col  xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
         <p style={{ fontSize: "1.4rem" }} ><i><b>VS Code</b></i> </p>
       </Col>

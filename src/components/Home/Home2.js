@@ -9,6 +9,7 @@ import {
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaFacebook } from 'react-icons/fa'
+import ResumeNew from "../Resume/ResumeNew";
 
 function Home2() {
   return (
@@ -40,7 +41,7 @@ function Home2() {
               <br />
               I 'm very Passionate For developing and exploring products
               with <b className="purple">Node.js, React.js and Express.js</b>
-              <br/>
+              <br />
               {/* I'm always ready to learn new things and technologies */}
             </p>
           </Col>
@@ -54,7 +55,8 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              Feel free to <span ><a style={{ textDecoration: 'none' }} className="purple"
+                href="mailto:siddhantbsb65@gmail.com">connect </a></span>with me
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">

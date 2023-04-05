@@ -1,5 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import Aos from 'aos';
+import "aos/dist/aos.css";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
@@ -12,9 +14,12 @@ import todo from "../../Assets/Projects/to-do-list.png";
 import weather from "../../Assets/Projects/weather.png";
 
 function Projects() {
+  useEffect(() => {
+    Aos.init = ({})
+  }, [])
   return (
     <Container fluid className="project-section">
-      <Particle />
+      {/* <Particle /> */}
       <Container>
         <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>
@@ -33,8 +38,7 @@ function Projects() {
               demoLink="https://chatify-49.web.app/"
             />
           </Col> */}
-
-           <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={todo}
               isBlog={false}
@@ -52,11 +56,11 @@ function Projects() {
               title="Weather Api"
               description="It is an application designed for weather information of various cities and countries,which shows information of wind,temperature,humdity and many more."
               ghLink="https://github.com/siddhant99m/Weather_Api"
-              // demoLink="https://editor.soumya-jit.tech/"              
+            // demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>
 
-{/*         <Col md={4} className="project-card">
+          {/*         <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
