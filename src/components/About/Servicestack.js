@@ -5,7 +5,7 @@ import { FaElementor } from "react-icons/fa"
 
 function Servicestack() {
     return (
-        <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+        <Row style={{ justifyContent: "center", paddingBottom: "35px" }}>
             <Col xs={4} md={2} className="tech-icons">
                 <MdDesignServices />
                 <p style={{ fontSize: "1.4rem" }}><i><b>Web Design</b></i> </p>

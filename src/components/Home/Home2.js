@@ -9,7 +9,6 @@ import {
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaFacebook } from 'react-icons/fa'
-import ResumeNew from "../Resume/ResumeNew";
 
 function Home2() {
   return (
@@ -25,18 +24,13 @@ function Home2() {
               something, I think… 🤷‍♂️
               <br />
               <br />I am fluent in classics like
-              <i>
-                <b className="purple"> C++ </b> &nbsp;
-              </i>and having intermediate knowledge of
-              <i>
-                <b className="purple"> Express.js, React.js and JavaScript.</b>
-              </i>
+              <i><b className="purple"> C++ </b> &nbsp;</i>
+              and having intermediate knowledge of
+              <i><b className="purple"> Express.js, React.js and JavaScript.</b></i>
               <br />
               <br />
               My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products. </b>
-              </i>
+              <i>  <b className="purple">Web Technologies and Products. </b></i>
               <br />
               <br />
               I 'm very Passionate For developing and exploring products
