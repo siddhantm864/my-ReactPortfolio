@@ -6,6 +6,7 @@ import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 import Servicestack from "./Servicestack";
+import ResumeNew from "../Resume/ResumeNew";
 
 function About() {
   return (
@@ -51,8 +52,9 @@ function About() {
         </h1>
 
         <Servicestack />
-
+        <ResumeNew/>
       </Container>
+      
     </Container>
   );
 }
