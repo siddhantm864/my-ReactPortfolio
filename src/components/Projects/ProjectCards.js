@@ -3,6 +3,7 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
+import ProjectTech from "./ProjectTech";
 
 function ProjectCards(props) {
   return (
@@ -27,12 +28,14 @@ function ProjectCards(props) {
             target="_blank"
             style={{ marginLeft: "10px" }}
           >
-            <CgWebsite />
-            &nbsp;
+            <CgWebsite />&nbsp;
             {"Demo"}
           </Button>
         )}
       </Card.Body>
+      <ProjectTech
+        title={props.title}
+      />
     </Card>
   );
 }

@@ -10,28 +10,20 @@ import {
 } from "react-icons/si";
 
 function Toolstack() {
-  useEffect(() => {
-    Aos.init = ({
-
-    })
-  }, [])
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
-        <p style={{ fontSize: "1.4rem" }} ><i><b>VS Code</b></i> </p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostman />
-        <p style={{ fontSize: "1.4rem" }}><i><b>Postman</b></i> </p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiGithub />
-        <p style={{ fontSize: "1.4rem" }}><i><b>Github</b></i> </p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiGit />
-        <p style={{ fontSize: "1.4rem" }}><i><b>Git</b></i> </p>
+
       </Col>
     </Row>
   );
