@@ -13,7 +13,7 @@ function ResumeNew() {
     <div>
       <Container fluid className="resume-section">
         <div id="container">
-          <a href='https://drive.google.com/file/d/1wDj_N6i0Hil052QA8Beogsz4H8nBdFrM/view?usp=sharing' target="blank" >
+          <a href='https://docs.google.com/document/d/1TV4jpjXt2gfcAbUceAn8clRDzu7pgQvpOoQA2mQgJdc/edit?usp=sharing' target="blank" >
             <button class="learn-more"
               target="_blank">
               <span class="circle" aria-hidden="true">
