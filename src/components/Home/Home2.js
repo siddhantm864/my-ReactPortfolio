@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/siddhant.jpg";
+import myImg from "../../Assets/my.jpeg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -41,7 +41,7 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid avtarImg" alt="avatar" class="rounded-circle" width="200" height="200"></img>
+              <img src={myImg} className="img-fluid " alt="avatar" class="rounded-circle" width="320" height="335"></img>
             </Tilt>
           </Col>
         </Row>
@@ -49,65 +49,65 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
-              Feel free to <span ><a style={{ textDecoration: 'none' }} className="purple"
+              Feel free to <span ><a style={{ textDecoration: 'none',fontWeight:600 }} className="purple"
                 href="mailto:siddhantbsb65@gmail.com">connect </a></span>with me
-            </p>
-            <ul className="home-about-social-links">
-              <li className="social-icons">
-                <a
-                  href="https://github.com/siddhant99m"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiFillGithub />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/siddhantmi99/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/siddhantmi99"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://facebook.com/siddhantmi99"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaFacebook />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://twitter.com/siddhantmi99"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-            </ul>
-          </Col>
-        </Row>
-      </Container>
+          </p>
+          <ul className="home-about-social-links">
+            <li className="social-icons">
+              <a
+                href="https://github.com/siddhant99m"
+                target="_blank"
+                rel="noreferrer"
+                className="icon-colour  home-social-icons"
+              >
+                <AiFillGithub />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://www.linkedin.com/in/siddhantmi99/"
+                target="_blank"
+                rel="noreferrer"
+                className="icon-colour  home-social-icons"
+              >
+                <FaLinkedinIn />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://www.instagram.com/siddhantmi99"
+                target="_blank"
+                rel="noreferrer"
+                className="icon-colour home-social-icons"
+              >
+                <AiFillInstagram />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://facebook.com/siddhantmi99"
+                target="_blank"
+                rel="noreferrer"
+                className="icon-colour  home-social-icons"
+              >
+                <FaFacebook />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://twitter.com/siddhantmi99"
+                target="_blank"
+                rel="noreferrer"
+                className="icon-colour  home-social-icons"
+              >
+                <AiOutlineTwitter />
+              </a>
+            </li>
+          </ul>
+        </Col>
+      </Row>
     </Container>
+    </Container >
   );
 }
 export default Home2;
